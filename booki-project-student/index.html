@@ -19,7 +19,7 @@
         <header>
             <div>
                 <div>
-                    <img src="images/logo/Booki@3x.png"> <!--Petit Booki pour la version mobile?-->
+                    <img src="images/logo/Booki.png"> <!--Petit Booki pour la version mobile?-->
                 </div>
                 <nav><!--Balise p ou autre pour ces liens?-->
                     <a>Hébergements</a>
@@ -33,15 +33,17 @@
                 </div>
                 <div>
                     <form action="#">
-                        <p><i class="fa-solid fa-location-dot"></i></p>
-                        <input type="text" value="Marseille, France" >
-                        <input type="submit" value="Rechercher" >
+                        <p class="location"><i class="fa-solid fa-location-dot"></i></p>
+                        <input type="text" value="Marseille, France" class="champ-search">
+                        <input type="submit" value="Rechercher" class="button-search">
                     </form>
-                    <p>Filtres</p>
-                    <p><i class="fa-solid fa-money-bill-wave"></i>Économiques</p>
-                    <p><i class="fa-solid fa-person"></i>Familial</p>
-                    <p><i class="fa-solid fa-heart"></i>Romantique</p>
-                    <p><i class="fa-solid fa-fire"></i>Nos pépites</p>
+                    <div>
+                        <p>Filtres</p>
+                        <p class="filtre"><i class="fa-solid fa-money-bill-wave"></i>Économique</p>
+                        <p class="filtre"><i class="fa-solid fa-person"></i>Familial</p>
+                        <p class="filtre"><i class="fa-solid fa-heart"></i>Romantique</p>
+                        <p class="filtre"><i class="fa-solid fa-fire"></i>Nos pépites</p>
+                    </div>
                     <p><i class="fa-sharp fa-regular fa-circle-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </div>
@@ -53,7 +55,7 @@
                         <h2>Hébergements à Marseille</h2>
                     </div>
                     <div><!--Section carte d'hébergements-->
-                        <article><!--Carte-->
+                        <article class="card"><!--Carte-->
                             <a><!--Lien fictif-->
                                 <img src="./images/hebergements/fred-kleber.jpg">
                                 <div> <!--section texte de la carte-->
@@ -69,7 +71,7 @@
                                 </div>
                             </a>
                         </article> <!--Article à dupliquer pour chaque carte de la section hébergements quand rempli-->
-                        <article><!--Carte-->
+                        <article class="card"><!--Carte-->
                             <a><!--Lien fictif-->
                                 <img src="./images/hebergements/febrian-zakaria.jpg">
                                 <div> <!--section texte de la carte-->
@@ -85,7 +87,7 @@
                                 </div>
                             </a>
                         </article> <!--Article à dupliquer pour chaque carte de la section hébergements quand rempli-->
-                        <article><!--Carte-->
+                        <article class="card"><!--Carte-->
                             <a><!--Lien fictif-->
                                 <img src="./images/hebergements/reisetopia.jpg">
                                 <div> <!--section texte de la carte-->
@@ -101,7 +103,7 @@
                                 </div>
                             </a>
                         </article> <!--Article à dupliquer pour chaque carte de la section hébergements quand rempli-->
-                        <article><!--Carte-->
+                        <article class="card"><!--Carte-->
                             <a><!--Lien fictif-->
                                 <img src="./images/hebergements/annie-spratt.jpg">
                                 <div> <!--section texte de la carte-->
@@ -117,7 +119,7 @@
                                 </div>
                             </a>
                         </article> <!--Article à dupliquer pour chaque carte de la section hébergements quand rempli-->
-                        <article><!--Carte-->
+                        <article class="card"><!--Carte-->
                             <a><!--Lien fictif-->
                                 <img src="./images/hebergements/marcus-loke.jpg">
                                 <div> <!--section texte de la carte-->
@@ -133,7 +135,7 @@
                                 </div>
                             </a>
                         </article> <!--Article à dupliquer pour chaque carte de la section hébergements quand rempli-->
-                        <article><!--Carte-->
+                        <article class="card"><!--Carte-->
                             <a><!--Lien fictif-->
                                 <img src="./images/hebergements/nicate-lee.jpg">
                                 <div> <!--section texte de la carte-->
@@ -149,7 +151,7 @@
                                 </div>
                             </a>
                         </article> <!--Article à dupliquer pour chaque carte de la section hébergements quand rempli-->
-                        <a>Afficher plus</a>
+                        <a><b>Afficher plus</b></a>
                     </div>
                 </section>
                 <section class="populaires">
@@ -217,25 +219,25 @@
                     <h2>Activités à Marseille</h2>
                 </div>
                 <section><!--Carte d'activités-->
-                    <article>
+                    <article class="card">
                         <div>
                             <img src="./images/activites/reno-laithienne.jpg">
                             <h3>Vieux-Port</h3>
                         </div>
                     </article><!--Carte à dupliquer une fois pré-rempli-->
-                    <article>
+                    <article class="card">
                         <div>
                             <img src="./images/activites/paul-hermann.jpg">
                             <h3>Fort de Pomègues</h3>
                         </div>
                     </article><!--Carte à dupliquer une fois pré-rempli-->
-                    <article>
+                    <article class="card">
                         <div>
                             <img src="./images/activites/kilyan-sockalingum.jpg">
                             <h3>Parc national des Calanques</h3>
                         </div>
                     </article><!--Carte à dupliquer une fois pré-rempli-->
-                    <article>
+                    <article class="card">
                         <div>
                             <img src="./images/activites/florian-wehde.jpg">
                             <h3>Notre-Dame-de-la-Garde</h3>
@@ -244,7 +246,7 @@
                 </section>
             </div>
         </main>
-        <footer><!--Les liens sont-il "réel" ou juste du texte?-->
+        <footer class="footer"><!--Les liens sont-il "réel" ou juste du texte?-->
             <section>
                 <h3>À propos</h3>
                 <p><a>Fonctionnement du site</a></p>

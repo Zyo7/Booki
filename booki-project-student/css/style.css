@@ -25,6 +25,10 @@ body {
     box-sizing: border-box;
 }
 
+header h1 {
+    font-size: 22px;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -51,6 +55,38 @@ body {
 
 .neutralStar {
     color: var(--main-bg-color)
+}
+
+.location {
+    background-color: var(--main-bg-color);
+    border-radius: 15px 0px 0px 15px;
+    text-align: center;
+}
+
+.champ-search {
+    border-color: var(--main-bg-color);
+    border-style: solid;
+    text-align: center;
+    font-weight: 700;
+}
+
+.button-search {
+    background-color: var(--main-color);
+    color: white;
+    border-style: solid;
+    border-color: var(--main-color);
+    border-radius: 0px 15px 15px 0px;
+}
+
+.filtre {
+    text-align: center;
+    border-radius: 25px;
+    border: solid 2px var(--main-bg-color)
+}
+
+.footer {
+    background-color: var(--main-bg-color);
+    margin-bottom: 0px;
 }
 
 /****** Hebergements And Populaires ***********/
