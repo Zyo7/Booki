@@ -24,11 +24,11 @@ body {
     padding: 0 50px;
     box-sizing: border-box;
 }
-
+/** Code ajouté début **/
 header h1 {
     font-size: 22px;
 }
-
+/** Code ajouté fin **/
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -56,11 +56,15 @@ header h1 {
 .neutralStar {
     color: var(--main-bg-color)
 }
-
+/** Code ajouté début **/
 .location {
     background-color: var(--main-bg-color);
     border-radius: 15px 0px 0px 15px;
     text-align: center;
+    /** vertical-align: middle; **/
+    width: 50px;
+    height: 49px;
+    margin-right: 0px;
 }
 
 .champ-search {
@@ -68,6 +72,9 @@ header h1 {
     border-style: solid;
     text-align: center;
     font-weight: 700;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 49px;
 }
 
 .button-search {
@@ -76,12 +83,15 @@ header h1 {
     border-style: solid;
     border-color: var(--main-color);
     border-radius: 0px 15px 15px 0px;
+    height: 49px;
+    width: 132px;
 }
 
 .filtre {
     text-align: center;
     border-radius: 25px;
-    border: solid 2px var(--main-bg-color)
+    border: solid 2px var(--main-bg-color);
+    width: auto;
 }
 
 .footer {
@@ -89,6 +99,59 @@ header h1 {
     margin-bottom: 0px;
 }
 
+.logo {
+    width: 61px;
+}
+/**
+.main-menu a {
+    font-size: 16px;
+}
+**/
+
+.card h3 {
+    font-size: 16px;   
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.hebergements .card {
+    width: 30%;
+    margin: 15px;
+}
+.hebergements h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.hebergements .card img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 0px;
+}
+
+.hebergements .card-content {
+    margin: 10px;
+}
+
+.activites .card img {
+    width: 100%;
+    margin: 0px;
+    border-radius: 20px 20px 0 0;
+    height: 380px;
+}
+
+.activites .card {
+    padding: 0;
+    margin: 15px;
+}
+
+.activites h3 {
+    margin: auto;
+    padding: 20px 19px;
+}
+/** Code ajouté fin **/
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
