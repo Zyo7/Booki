@@ -151,6 +151,37 @@ header h1 {
     margin: auto;
     padding: 20px 19px;
 }
+
+.card-hebergement {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+}
+
+.filtres {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-activites {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer{ 
+    display: flex;
+    flex-direction: row;
+}
 /** Code ajouté fin **/
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -224,7 +255,7 @@ header h1 {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
-        flex-direction: column;
+        flex-direction: row; /** Code édité **/
     }
 
     .hebergements {
@@ -238,7 +269,7 @@ header h1 {
 
     .populaires-cards {
         display: flex;
-        flex-direction: row;
+        flex-direction: column; /** Code édité **/
         justify-content: space-between;
     }
 

@@ -17,7 +17,7 @@
 <body>
     <div class="main-container">
         <header>
-            <div>
+            <div class="top-header">
                 <div>
                     <img src="images/logo/Booki.png" class="logo"> <!--Petit Booki pour la version mobile?-->
                 </div>
@@ -32,19 +32,19 @@
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
                 <div>
-                    <form action="#">
+                    <form class="search" action="#">
                         <p class="location"><i class="fa-solid fa-location-dot"></i></p>
                         <input type="text" value="Marseille, France" class="champ-search">
                         <input type="submit" value="Rechercher" class="button-search">
                     </form>
-                    <div>
+                    <div class="filtres">
                         <p>Filtres</p>
                         <p class="filtre"><i class="fa-solid fa-money-bill-wave"></i>Économique</p>
                         <p class="filtre"><i class="fa-solid fa-person"></i>Familial</p>
                         <p class="filtre"><i class="fa-solid fa-heart"></i>Romantique</p>
                         <p class="filtre"><i class="fa-solid fa-fire"></i>Nos pépites</p>
                     </div>
-                    <p><i class="fa-sharp fa-regular fa-circle-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+                    <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </div>
         </header>
@@ -54,7 +54,7 @@
                     <div>
                         <h2>Hébergements à Marseille</h2>
                     </div>
-                    <div><!--Section carte d'hébergements-->
+                    <div class="card-hebergement"><!--Section carte d'hébergements-->
                         <article class="card"><!--Carte-->
                             <a><!--Lien fictif-->
                                 <img src="./images/hebergements/fred-kleber.jpg">
@@ -217,7 +217,7 @@
                 <div><!--Titre-->
                     <h2>Activités à Marseille</h2>
                 </div>
-                <section><!--Carte d'activités-->
+                <section class="card-activites"><!--Carte d'activités-->
                     <article class="card">
                         <div>
                             <img src="./images/activites/reno-laithienne.jpg">
